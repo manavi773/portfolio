@@ -29,7 +29,7 @@ This website showcases my background in **Artificial Intelligence & Machine Lear
 ---
 
 ## 🚀 Live Demo & Deployment
-* **Live Website:** [Click here to view the live portfolio](https://<your-username>.github.io/<your-repo-name>/)
+* **Live Website:** [Click here to view the live portfolio](https://github.com/manavi773/portfolio)
 * **Hosted on:** GitHub Pages
 
 ---
