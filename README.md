@@ -37,5 +37,5 @@ This website showcases my background in **Artificial Intelligence & Machine Lear
 ## 👤 Author
 * **Name:** Manavi
 * **Field:** Artificial Intelligence & Machine Learning
-* **GitHub Profile:** [[https://github.com/<your-username>](https://github.com/manavi773)
+* **GitHub Profile:** (https://github.com/manavi773)
 *
