@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manavi M Shetty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" class="btn">🌙 Dark Mode</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="my profile photo.jpeg" alt="Profile photo" class="profile-img" />
+    <h1>Hi, I'm <span class="highlight">Manavi M Shetty</span></h1>
+    <p class="tagline">Artificial intelligence and machine learning student</p>
+    <a href="https://github.com/manavi773" target="_blank" rel="noopener noreferrer" class="btn primary-btn">View My GitHub</a>
+  </header>
+
+  <!-- About Section -->
+<section id="about" class="card">
+  <h2>About Me</h2>
+  <p>I am a student specializing in Artificial Intelligence and Machine Learning. I have a strong foundation in core programming basics, problem-solving, and web fundamentals like HTML, CSS, and JavaScript. I enjoy learning new technologies, building practical projects, and exploring how intelligent systems work.</p>
+</section>
+
+    <!-- Education Section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>Bachelor of artificial intelligence and machine learning</h3>
+        <p class="subtext">Sahyadri college of engineering and management</p>
+        <p>Key Coursework:Data Structures & Algorithms, Machine Learning, Deep Learning, Python Programming, Database Management Systems, Web Development.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="card">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span class="badge">C & Python</span>
+    <span class="badge">Data Structures</span>
+    <span class="badge">HTML & CSS</span>
+    <span class="badge">JavaScript</span>
+    <span class="badge">Problem Solving</span>
+  </div>
+</section>
+
+<!-- Projects Section -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Sign Language Gesture Recognition</h3>
+          <p>A deep learning project exploring LSTM neural networks, TensorFlow, and MediaPipe to detect and recognize gesture sequences from video frames.</p>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-link">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>Attendance & Record Tracker</h3>
+          <p>A Python data management program utilizing set operations and structured logic to track, filter, and process records efficiently.</p>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-link">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>Interactive Personal Portfolio</h3>
+          <p>A responsive, modern web portfolio built using semantic HTML5, Flexbox styling, and interactive JavaScript features including a dark mode switcher.</p>
+          <a href="#" class="text-link">Live Demo &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+      <p id="form-feedback" class="feedback-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Manavi M Shetty. Built with HTML, CSS, and JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
